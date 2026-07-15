@@ -1,0 +1,51 @@
+# 📝✨ Word Devs — Markdown Lint & Link Checker Workflow
+# Revisa automáticamente que todos los archivos Markdown estén bien formateados
+# y que no contengan enlaces caídos o rotos.
+
+name: "🎀 Markdown Lint"
+
+on:
+  push:
+    branches: ["main", "master"]
+    paths:
+      - "**.md"
+  pull_request:
+    branches: ["main", "master"]
+    paths:
+      - "**.md"
+  workflow_dispatch: # Permite ejecución manual
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: "🔍 Lint Markdown Files"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥 Checkout Code"
+        uses: actions/checkout@v4
+
+      - name: "🟢 Setup Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: "🎨 Run Markdownlint"
+        # Usamos el paquete oficial de npm de davidanson de forma directa. No falla jamás.
+        run: npx markdownlint-cli "**.md" --ignore "node_modules"
+
+  link-checker:
+    name: "🔗 Check Broken Links"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥 Checkout Code"
+        uses: actions/checkout@v4
+
+      - name: "🩹 Check for Broken URLs"
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Archivos a revisar e ignorar (por ejemplo, omitimos carpetas de node o temporales)
+          args: --verbose --no-progress "**.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

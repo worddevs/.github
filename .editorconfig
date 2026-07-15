@@ -1,0 +1,18 @@
+# 🎀 Word Devs — EditorConfig Configuration
+# Docs: https://editorconfig.org
+
+# This is the root EditorConfig file for our projects
+root = true
+
+# All files configuration
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Specific rule for Markdown files
+[*.md]
+trim_trailing_whitespace = false

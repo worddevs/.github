@@ -1,0 +1,76 @@
+# 🌸💤 Word Devs — Stale Issues & PRs Workflow
+# Warns and closes issues and pull requests that have had no activity
+# for a while, keeping our repository fresh and tidy!
+# Docs: https://github.com/actions/stale
+
+name: "🎀 Manage Stale Issues"
+
+on:
+  schedule:
+    - cron: "30 1 * * *" # Runs every day at 1:30 AM
+  workflow_dispatch: # Allows manual trigger if needed
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    name: "💤 Check Stale Threads"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "🔍 Process stale issues and PRs"
+        uses: actions/stale@v9
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+
+          # --- CONFIGURATION DAYS ---
+          # 30 days of complete silence makes a thread "stale"
+          days-before-stale: 30
+          # Once marked as stale, users have 7 days to reply before it closes
+          days-before-close: 7
+
+          # --- STALE WARNING MESSAGES ---
+          stale-issue-message: |
+            ### (っ´ω`)ﾉ Oh hi! This issue is getting sleepy... 💤🌸
+
+            This ticket hasn't had any activity in **30 days**. We know life gets busy, but we want to keep our workspace organized! 
+
+            - 💬 **Still experiencing this issue?** Just post any quick comment below and we'll keep this thread wide awake!
+            - 🌸 **Is it resolved?** Feel free to close it yourself to help us out.
+
+            If nothing happens in the next **7 days**, we'll have to tuck it into bed and close it automatically. Thank you! 💜
+
+          stale-pr-message: |
+            ### (っ´ω`)ﾉ Hey there! This PR is catching some Z's... 💤✨
+
+            This pull request has been quiet for **30 days**. To help us keep our code clean and manageable, we need to know if this is still ready for review!
+
+            - 🛠️ **Still working on it?** Make a quick update or drop a comment to keep it open.
+            - 🌸 **No longer active?** No worries, just let us know or close the PR.
+
+            If we don't hear from you in **7 days**, we'll close this PR automatically. Thank you so much for your work! 💜
+
+          # --- CLOSE MESSAGES ---
+          close-issue-message: |
+            ### (っ˘̩╭╮˘̩)っ Goodbye, little issue! 💤🌌
+
+            Since there was no response, we have closed this ticket for now to keep things tidy. 
+
+            If you still need help, don't worry! You can easily reopen this issue or create a fresh new [Bug Report](../issues/new?template=bug_report.md) whenever you are ready. See you soon! 🌸
+
+          close-pr-message: |
+            ### (っ˘̩╭╮˘̩)っ Closing this PR for now... 💤🌌
+
+            We haven't seen any updates, so we are closing this pull request to keep our branches clean.
+
+            If you ever decide to pick this up again, please feel free to reopen it or submit a new PR! We appreciate your efforts to make Word Devs better! 🌸
+
+          # --- LABEL CONFIG ---
+          # Label applied when a thread becomes inactive
+          stale-issue-label: "💤 stale"
+          stale-pr-label: "💤 stale"
+
+          # Avoid marking issues/PRs with these labels as stale (e.g., security bugs or pinned issues)
+          exempt-issue-labels: "🔒 security,📌 pinned"
+          exempt-pr-labels: "🔒 security,📌 pinned"
