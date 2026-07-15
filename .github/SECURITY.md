@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="../Profile/Assets/Images/Banners/security-banner.png" alt="Word Devs Security Policy" width="100%">
+<img src="../Src/Assets/Images/Banners/security-banner.png" alt="Word Devs Security Policy" width="100%">
 
     ( •_•)>⌐■-■
 

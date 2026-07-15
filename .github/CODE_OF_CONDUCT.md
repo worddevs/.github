@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="../Profile/Assets/Images/Banners/coc-banner.png" alt="Word Devs Code of Conduct" width="100%">
+<img src="../Src/Assets/Images/Banners/coc-banner.png" alt="Word Devs Code of Conduct" width="100%">
 
     (っ.❛ ᴗ ❛.)っ
 

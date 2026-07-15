@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="../Profile/Assets/Images/Banners/contrib-banner.png" alt="Word Devs Contributing Guidelines" width="100%">
+<img src="../Src/Assets/Images/Banners/contrib-banner.png" alt="Word Devs Contributing Guidelines" width="100%">
 
     ٩(◕‿◕｡)۶
 

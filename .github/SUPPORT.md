@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="../Profile/Assets/Images/Banners/support-banner.png" alt="Word Devs Support" width="100%">
+<img src="../Src/Assets/Images/Banners/support-banner.png" alt="Word Devs Support" width="100%">
 
     (っ`･ω･´)っ
 
