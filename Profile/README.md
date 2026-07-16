@@ -27,31 +27,25 @@ At **Word Devs**, we love combining high-performance software engineering with f
 
 Here are the main stars of our workshop that you can explore right now:
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3>🌸 Kannamy</h3>
-      <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=flat-square" alt="Status"><br><br>
-      Our signature interactive Discord bot! Packed with entertainment, advanced leveling, and creative media systems.
-      <br><br>
-      <a href="https://github.com/worddevs/kannamy"><b>View Project →</b></a>
-    </td>
-    <td width="33%" align="center">
-      <h3>🔑 cf-keys</h3>
-      <img src="https://img.shields.io/badge/Status-Production_Ready-blue?style=flat-square" alt="Status"><br><br>
-      A sweet, lightweight cryptographic and JWT toolkit built to handle secure user tokens with absolute simplicity.
-      <br><br>
-      <a href="https://github.com/worddevs/cf-keys"><b>View Project →</b></a>
-    </td>
-    <td width="33%" align="center">
-      <h3>🎨 kira-arts</h3>
-      <img src="https://img.shields.io/badge/Status-Beta-orange?style=flat-square" alt="Status"><br><br>
-      An automated asset and beautiful card generation engine designed to spice up profile rewards and statistics.
-      <br><br>
-      <a href="https://github.com/worddevs/kira-arts"><b>View Project →</b></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<h3>🎨 kira-arts</h3>
+<img src="https://img.shields.io/badge/Status-Beta-orange?style=flat-square" alt="Status">
+
+<br><br>
+
+<!-- Miniatura del proyecto -->
+<img src="../Src/Assets/Images/Projects/kira-card.png" alt="kira-arts preview" width="380" style="border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.15);">
+
+<br><br>
+
+<p align="center" style="max-width: 500px;">
+  An automated asset and beautiful card generation engine designed to spice up profile rewards and statistics.
+</p>
+
+<a href="https://github.com/worddevs/kira-arts"><b>Explore kira-arts Repository →</b></a>
+
+</div>
 
 ---
 
