@@ -86,9 +86,7 @@ Word Devs is entirely powered by open-source love and sweet contributions. If ou
 
 <div align="center">
 
-╭──────────────────────────────╮
 🌸 **Thank you for visiting Word Devs!** 🌸
-╰──────────────────────────────╯
 
 _Made with passion, magic, and lots of code_ 🧸✨
 
