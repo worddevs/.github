@@ -63,9 +63,8 @@ We enjoy building modern, blazing-fast tools using a wide variety of technologie
 
 We believe open source thrives when we build together! If you want to drop by, suggest features, or help us code, here is how you can get started:
 
-- 📖 read our friendly [Contributing Guidelines](.github/CONTRIBUTING.md) to understand our Git workflows.
-- 🛡️ Check out our [Code of Conduct](.github/CODE_OF_CONDUCT.md) to help us maintain a safe, welcoming space.
-- 💬 Open a discussion thread or ask a question in our general [Support Center](.github/SUPPORT.md).
+- 💬 Open a discussion thread or ask questions directly inside the [kira-arts Discussions](https://github.com/worddevs/kira-arts/discussions).
+- 🐛 Report bugs or request awesome features using the repository's Issues tab.
 
 ---
 
@@ -74,7 +73,7 @@ We believe open source thrives when we build together! If you want to drop by, s
 Word Devs is entirely powered by open-source love and sweet contributions. If our projects make your life easier or add a smile to your Discord servers, consider supporting us!
 
 - 🌟 Give a star to our repositories (it makes us jump with joy!).
-- ☕ Buy us a virtual coffee via our official platforms on our [Sponsor Page](.github/FUNDING.yml).
+- ☕ Buy us a virtual coffee via our official platforms on our [Sponsor Page](https://github.com/sponsors/worddevs).
 
 ---
 
