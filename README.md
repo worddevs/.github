@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="../Src/Assets/Images/Banners/main-banner.png" alt="Word Devs Banner" width="100%">
+<img src="./Src/Assets/Images/Banners/main-banner.png" alt="Word Devs Banner" width="100%">
 
 🛸 **Crafting playful, open-source tools with a little extra sparkle** 🧸
 
