@@ -1,4 +1,4 @@
-# 🌸 Word Devs
+# 𝐖𝐨𝐫𝐝 𝐃𝐞𝐯𝐬 ✨
 
 <div align="center">
 
@@ -20,7 +20,7 @@
 [![Support Email](https://img.shields.io/badge/Contact-support%40worddevs.dev-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:support@worddevs.dev)
 [![Location](https://img.shields.io/badge/Location-USA-USA?style=flat-square&logo=google-maps&logoColor=white&color=red)](https://github.com/worddevs)
 [![Language](https://img.shields.io/badge/Language-English_/_Spanish-FF69B4?style=flat-square&logo=translate&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=github&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/worddevs/.github/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=github-actions&logoColor=white)](#)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Word_Devs-pink?style=flat-square&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/worddevs)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-Open_Source-orange?style=flat-square&logo=open-source-initiative&logoColor=white)](#)

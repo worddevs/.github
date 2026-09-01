@@ -1,0 +1,28 @@
+# Normalize line endings in all text files
+* text=auto eol=lf
+
+# Force LF in code and doc files
+*.md text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Treat assets as binaries (avoids strange diffs and corruption)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+
+# Compressed files are always binary
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+
+# Exclude assets from GitHub's linguist (so that assets don't count as code in the repo's language percentage)
+Src/Assets/** linguist-vendored

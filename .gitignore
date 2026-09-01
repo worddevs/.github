@@ -1,0 +1,44 @@
+# 📦 Compressed/packaged files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.iso
+
+# 🖥️ Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🧰 Node / dependencies
+node_modules/
+dist/
+build/
+.npm/
+.pnpm-store/
+
+# 🔐 Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# 🧪 Logs and debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🖊️ Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# 📄 Temporary
+*.tmp
+*.bak
+*.orig
